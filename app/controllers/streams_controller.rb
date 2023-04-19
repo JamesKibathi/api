@@ -1,7 +1,7 @@
 class StreamsController < ApplicationController
   before_action :set_stream, only: %i[ show update destroy ]
 
-  # GET /streams
+  # GET /streams - all students
   def index
     @streams = Stream.all
 
