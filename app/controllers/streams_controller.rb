@@ -11,6 +11,7 @@ class StreamsController < ApplicationController
   # GET /streams/1
   def show
     render json: @stream
+    # Serializer : StudentStreamSerializer
   end
 
   # POST /streams
