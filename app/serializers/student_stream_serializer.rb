@@ -1,3 +1,5 @@
 class StudentStreamSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id,:name
+  belongs_to :stream
+  
 end
